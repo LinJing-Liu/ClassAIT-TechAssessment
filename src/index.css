@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font: 18px "Noto Sans", sans-serif;
+    color: black;
+    background-color: rgba(1, 162, 162, 0.1);
+    padding: 3%;
+}
+.container {
+    width: 100%;
+    height: 300px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 60%;
+}
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    display: block;
+    background-color: aliceblue;
+    padding: 30px;
+}
+h2 {
+    font-size: 22px;
+}
+hr {
+    height: 8px;
+    background-color: white;
+    border: none;
+}
+div {
+    padding: 3px;
+}
+input {
+    height: 20px;
+    font-size: large;
+}
+input:focus {
+    outline: 0;
+    box-shadow: 0 0 3pt 2pt rgba(149, 111, 254, 0.338);
+}
+i {
+    font-size: small;
+}
+button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20%;
+    font-size: medium;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+}
+li {
+    padding-bottom: 5px;
+}
+#inn {
+    visibility: hidden;
 }
